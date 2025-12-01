@@ -6,10 +6,6 @@
         defence = tempdefence;
         armorcounter++;
     }
-    public int howmanyarmors()
-    {
-        return armorcounter;
-    }
     public string givename()
     {
         return name;
@@ -18,7 +14,7 @@
     {
         return defence;
     }
-    private int armorcounter = 0;
     private string name;
     private int defence;
+
 }
