@@ -4,11 +4,6 @@
     {
         name = tempname;
         description = tempdesc;
-        questitcounter++;
-    }
-    public int howmanypotions()
-    {
-        return questitcounter;
     }
     public string givename()
     {
@@ -18,7 +13,7 @@
     {
         return description;
     }
-    private int questitcounter = 0;
     private string name;
     private string description;
+
 }
