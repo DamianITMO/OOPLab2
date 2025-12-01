@@ -4,7 +4,6 @@
     {
         name = tempname;
         defence = tempdefence;
-        armorcounter++;
     }
     public string givename()
     {
@@ -18,3 +17,4 @@
     private int defence;
 
 }
+
