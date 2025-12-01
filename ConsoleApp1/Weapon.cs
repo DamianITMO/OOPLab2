@@ -6,11 +6,6 @@ class Weapon : Item
     {
         name = tempname;
         power = temppower;
-        weaponcounter++;
-    }
-    public int howmanyweapons()
-    {
-        return weaponcounter;
     }
     public string givename()
     {
@@ -26,7 +21,7 @@ class Weapon : Item
         toreturn = name + "|  Power = " + power;
         return toreturn;
     }
-    private int weaponcounter = 0;
     private string name;
     private int power;
+
 }
