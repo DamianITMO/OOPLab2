@@ -4,11 +4,6 @@
     {
         name = tempname;
         effect = tempeffect;
-        potioncounter++;
-    }
-    public int howmanypotions()
-    {
-        return potioncounter;
     }
     public string givename()
     {
@@ -18,7 +13,7 @@
     {
         return effect;
     }
-    private int potioncounter = 0;
     private string name;
     private string effect;
+
 }
